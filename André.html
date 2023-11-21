@@ -31,6 +31,64 @@
     <p>hei! jeg heter André og er 21 år gammel. jeg kommer fra Kristiansand, hellemyr og på fritiden spiller jeg på UIA Lacrosse </p>
 </body>
 
+<canvas id="myCanvas" width="300" height="200" style="border:0px solid grey">
+</canvas>
+
+<script>//body
+const c = document.getElementById("myCanvas");
+const ctx = c.getContext("2d");
+
+ctx.fillStyle = "red";
+ctx.fillRect(80, 20, 100, 120);
+</script>
+
+<script>//left leg
+const c2 = document.getElementById("myCanvas");
+const ctx2 = c2.getContext("2d");
+
+ctx2.fillStyle = "red";
+ctx2.fillRect(80, 120, 40, 50);
+</script>
+
+<script>
+    //right leg
+const c3 = document.getElementById("myCanvas");
+const ctx3 = c3.getContext("2d");
+
+ctx3.fillStyle = "red";
+ctx3.fillRect(140, 120, 40, 50);
+</script>
+
+<script>//backpack
+const c4 = document.getElementById("myCanvas");
+const ctx4 = c4.getContext("2d");
+
+ctx4.fillStyle = "red";
+ctx4.fillRect(60, 35, 50, 80);
+</script>
+
+<script>//backpack outline
+const c5 = document.getElementById("myCanvas");
+const ctx5 = c5.getContext("2d");
+
+ctx5.strokeRect(60, 35, 20, 80);
+</script>
+
+<script>//Eye
+    
+const canvas = document.getElementById("myCanvas");
+const ctx6 = canvas.getContext("2d");
+
+ctx6.strokeStyle = "black";
+ctx6.fillStyle = "grey";
+ctx6.lineWidth = 1;
+
+ctx6.beginPath();
+ctx6.arc(170,60,25,0,2*Math.PI);
+ctx6.fill()
+ctx6.stroke();
+</script>
+
 <body>
 </body>
 </html>
