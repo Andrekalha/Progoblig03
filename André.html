@@ -11,15 +11,110 @@
     <h1>Velkommen </h1>
 
     <h2>André</h2>
-    <h3>hei! jeg heter André og er 21 år gammel. jeg kommer fra Kristiansand, hellemyr og på fritiden spiller jeg på UIA Lacrosse. </h3>
+    <h3>Jeg heter André og er 21 år gammel. jeg kommer fra Kristiansand, hellemyr og på fritiden spiller jeg på UIA Lacrosse. </h3>
     <h3>Under er det avbildet en tilfeldig rød astronaut i Canvas og SVG</h3>
 
-    <svg id = mySVG width="300" height="300"></svg>
 
-    <canvas id="myCanvas" width="300" height="300" style="border:1px solid white"></canvas>
     
     <script src="js/figures.js"></script>
     <script src="js/andre.js"></script>
+
+</body>
+
+
+<script src=js/figures.js> </script>
+<script src=js/andre.js> </script>
+
+<canvas id="myCanvas" width="300" height="200" style="border:0px solid grey"> 
+</canvas>
+
+<script>//body
+const c = document.getElementById("myCanvas");
+const ctx = c.getContext("2d");
+
+ctx.fillStyle = "red";
+ctx.fillRect(80, 20, 100, 120);
+</script>
+
+<script>//left leg
+const c2 = document.getElementById("myCanvas");
+const ctx2 = c2.getContext("2d");
+
+ctx2.fillStyle = "red";
+ctx2.fillRect(80, 120, 40, 50);
+</script>
+
+<script>
+    //right leg
+const c3 = document.getElementById("myCanvas");
+const ctx3 = c3.getContext("2d");
+
+ctx3.fillStyle = "red";
+ctx3.fillRect(140, 120, 40, 50);
+</script>
+
+<script>//backpack
+const c4 = document.getElementById("myCanvas");
+const ctx4 = c4.getContext("2d");
+
+ctx4.fillStyle = "red";
+ctx4.fillRect(60, 35, 50, 80);
+</script>
+
+<script>//backpack outline
+const c5 = document.getElementById("myCanvas");
+const ctx5 = c5.getContext("2d");
+
+ctx5.strokeRect(60, 35, 20, 80);
+</script>
+
+<script>//Eye
+    
+const canvas = document.getElementById("myCanvas");
+const ctx6 = canvas.getContext("2d");
+
+ctx6.strokeStyle = "black";
+ctx6.fillStyle = "grey";
+ctx6.lineWidth = 1;
+
+ctx6.beginPath();
+ctx6.arc(170,60,25,0,2*Math.PI);
+ctx6.fill()
+ctx6.stroke(); 
+</script>
+
+
+<svg width="200" height="180">
+
+//Kropp
+  <rect x="20" y="0" width="100" height="120" style="fill:rgb(255,0,0);stroke-width:0;stroke:rgb(0,0,0)" />
+
+//Left Leg
+  <rect x="20" y="100" width="40" height="50" style="fill:rgb(255,0,0);stroke-width:0;stroke:rgb(0,0,0)" />
+
+//Right Leg
+   <rect x="80" y="100" width="40" height="50" style="fill:rgb(255,0,0);stroke-width:0;stroke:rgb(0,0,0)" />
+
+//Backpack
+   <rect x="0" y="15" width="20" height="80" style="fill:rgb(255,0,0);stroke-width:1;stroke:rgb(0,0,0)" />
+
+//Eye
+   <circle cx="110" cy="40" r="25" stroke="black" stroke-width="1"fill="grey" />
+</svg>
+ 
+   <br>
+   <p> under er det avbildet klimafotavtrykk for meg </p>
+
     <img src="Klimafotavtrykk.png" alt="Klimafotavtrykk" width="733" height="525">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
 </body>
 </html>
