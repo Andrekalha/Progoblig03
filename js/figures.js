@@ -53,4 +53,20 @@ function rectangleSVG(x, y, width, height, color) {
     svg.appendChild(rect);
 } 
 
-function 
+function triangleSVG(startposx, startposy, line1x, line1y, line2x, line2y, color) {
+    const svg = document.getElementById("mySVG");
+    const triangle = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
+    triangle.setAttribute("points", startposx + "," + startposy + " " + line1x + "," + line1y + " " + line2x + "," + line2y);
+    triangle.setAttribute("fill", color);
+    svg.appendChild(triangle);
+}
+
+function circleSVG(x, y, radius, color) {
+    const svg = document.getElementById("mySVG");
+    const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+    circle.setAttribute("cx", x);
+    circle.setAttribute("cy", y);
+    circle.setAttribute("r", radius);
+    circle.setAttribute("fill", color);
+    svg.appendChild(circle);   
+}
