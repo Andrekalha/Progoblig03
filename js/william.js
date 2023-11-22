@@ -6,3 +6,5 @@ drawTriangle(250, 185, 400, 115, 495, 185, 300, 185, "LightSlateGray");
 drawCircle(60, 60, 40, "yellow");
 
 rectangleSVG(0, 0, 500, 300, "DeepSkyBlue");
+rectangleSVG(0, 180, 500, 120, "RoyalBlue");
+rectangleSVG(0, 270, 500, 30, "green");

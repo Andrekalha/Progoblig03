@@ -52,3 +52,5 @@ function rectangleSVG(x, y, width, height, color) {
     rect.setAttribute("fill", color);
     svg.appendChild(rect);
 } 
+
+function 
