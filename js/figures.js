@@ -47,7 +47,6 @@ function drawTriangle(startposx, startposy, line1x, line1y, line2x, line2y, line
     ctx.strokeStyle = 'transparent';
     ctx.fill();
     ctx.stroke();
-
 }
 
 function rectangleSVG(x, y, width, height, mode, color) {   
