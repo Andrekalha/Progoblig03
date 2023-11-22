@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
+    <title>Hovedside</title>
     <style type="text/css">
 
         body{
@@ -22,7 +22,7 @@
         div{
             position: relative;
             padding: 50px;
-
+        }
 
     </style>
 </head>
@@ -34,7 +34,7 @@
         <h3>Gruppe 6B</h3>
         <!-- Her kan dere skrive deres egne navn der det står "Navn",
              og bytte ut linken til "eksempel.html" med navnet på html-filen din-->
-        <a href="william.html">william</a>
+        <a href="william.html">William</a>
         <a href="André.html">André</a>
         <a href="Kata.html">Kata</a>
         <a href="Aaron.html">Aaron</a>
